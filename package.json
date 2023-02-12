@@ -10,10 +10,10 @@
     "type-check": "tsc"
   },
   "dependencies": {
-    "@types/node": "^18.13.0",
     "opencv-wasm": "^4.3.0-10"
   },
   "devDependencies": {
+    "@types/node": "^18.13.0",
     "@typescript-eslint/eslint-plugin": "^5.51.0",
     "@typescript-eslint/parser": "^5.51.0",
     "eslint": "^8.34.0",
