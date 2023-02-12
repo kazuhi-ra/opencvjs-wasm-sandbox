@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "cv": "ts-node src/main.ts",
     "format": "npm run prettier:format && npm run lint:fix",
     "prettier:format": "prettier --loglevel warn --write \"./**/*.{js,ts,css,md,json}\" ",
     "lint:fix": "eslint ./src --ext .jsx,.js,.ts,.tsx --quiet --fix --ignore-path ./.gitignore",
